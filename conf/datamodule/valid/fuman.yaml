@@ -1,0 +1,8 @@
+defaults:
+  - /datamodule/base/fuman@fuman
+
+fuman:
+  knp_path: ${dataset.path}/valid/fuman
+  gold_knp_path: ${dataset.path}/valid/fuman_gold
+  training: false
+  kc: false

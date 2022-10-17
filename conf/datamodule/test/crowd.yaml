@@ -1,0 +1,8 @@
+defaults:
+  - /datamodule/base/crowd@crowd
+
+crowd:
+  knp_path: ${dataset.path}/test/crowd
+  jsonl_path: ${dataset.path}/test/jsonl
+  gold_knp_path: ${dataset.path}/test/crowd_gold
+  training: false

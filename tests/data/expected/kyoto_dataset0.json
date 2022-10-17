@@ -1,0 +1,141 @@
+{
+  "phrases": [
+    {
+      "surf": "コイン",
+      "dtid": 0,
+      "scores": [],
+      "null": 16
+    },
+    {
+      "surf": "トスを",
+      "dtid": 1,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "３回",
+      "dtid": 2,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "行う。",
+      "dtid": 3,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "表が",
+      "dtid": 4,
+      "scores": [
+        {
+          "dtid": 0,
+          "phrase": "コイン",
+          "score": 16
+        }
+      ],
+      "null": 0
+    },
+    {
+      "surf": "出た",
+      "dtid": 5,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "数だけ、",
+      "dtid": 6,
+      "scores": [],
+      "null": 16
+    },
+    {
+      "surf": "フィールド上の",
+      "dtid": 7,
+      "scores": [],
+      "null": 16
+    },
+    {
+      "surf": "モンスターを",
+      "dtid": 8,
+      "scores": [
+        {
+          "dtid": 6,
+          "phrase": "数だけ、",
+          "score": 4
+        },
+        {
+          "dtid": 7,
+          "phrase": "フィールド上の",
+          "score": 4
+        }
+      ],
+      "null": 12
+    },
+    {
+      "surf": "破壊する。",
+      "dtid": 9,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "この",
+      "dtid": 10,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "効果は",
+      "dtid": 11,
+      "scores": [],
+      "null": 16
+    },
+    {
+      "surf": "１",
+      "dtid": 12,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "ターンに",
+      "dtid": 13,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "１度だけ",
+      "dtid": 14,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "自分の",
+      "dtid": 15,
+      "scores": [],
+      "null": 16
+    },
+    {
+      "surf": "メイン",
+      "dtid": 16,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "フェイズに",
+      "dtid": 17,
+      "scores": [
+        {
+          "dtid": 15,
+          "phrase": "自分の",
+          "score": 8
+        }
+      ],
+      "null": 8
+    },
+    {
+      "surf": "使用する事ができる。",
+      "dtid": 18,
+      "scores": [],
+      "null": null
+    }
+  ]
+}

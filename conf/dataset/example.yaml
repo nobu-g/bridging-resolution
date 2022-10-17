@@ -1,0 +1,19 @@
+path: "/path/to/directory/where/preprocessed/datasets/exist"
+max_seq_length: 128
+exophors: []
+vocab_size: 32016
+bert_name: "base"
+bert_path: "/path/to/pretrained/bert/directory"
+num_examples:
+  test:
+    crowd: 4
+    kwdlc: 3
+    fuman: 2
+  valid:
+    crowd: 4
+    kwdlc: 3
+    fuman: 2
+  train:
+    crowd: 4
+    kwdlc: 3
+    fuman: 2

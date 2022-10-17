@@ -1,0 +1,9 @@
+defaults:
+  - train:
+      - kwdlc
+  - valid:
+      - crowd
+      - kwdlc
+  - test:
+      - crowd
+      - kwdlc

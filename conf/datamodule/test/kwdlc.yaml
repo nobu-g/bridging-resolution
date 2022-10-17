@@ -1,0 +1,8 @@
+defaults:
+  - /datamodule/base/kwdlc@kwdlc
+
+kwdlc:
+  knp_path: ${dataset.path}/test/kwdlc
+  gold_knp_path: ${dataset.path}/test/kwdlc_gold
+  training: false
+  kc: false

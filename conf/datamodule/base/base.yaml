@@ -1,0 +1,5 @@
+bert_path: ${dataset.bert_path}
+max_seq_length: ${dataset.max_seq_length}
+exophors: ${exophors}
+method: ${method}
+include_intra_sentential_cataphora: true

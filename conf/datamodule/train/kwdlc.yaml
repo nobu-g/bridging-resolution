@@ -1,0 +1,7 @@
+defaults:
+  - /datamodule/base/kwdlc@kwdlc
+
+kwdlc:
+  knp_path: ${dataset.path}/train/kwdlc
+  training: true
+  kc: false

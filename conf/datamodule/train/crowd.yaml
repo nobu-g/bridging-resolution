@@ -1,0 +1,7 @@
+defaults:
+  - /datamodule/base/crowd@crowd
+
+crowd:
+  knp_path: ${dataset.path}/train/crowd
+  jsonl_path: ${dataset.path}/train/jsonl
+  training: true

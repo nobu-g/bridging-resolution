@@ -1,0 +1,8 @@
+name: Baseline
+
+_target_: model.model.BaselineModel
+bert_model: ${dataset.bert_path}
+vocab_size: ${dataset.vocab_size}
+dropout: 0.0
+method: ${method}
+loss_fn: ${loss}

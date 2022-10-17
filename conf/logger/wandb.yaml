@@ -1,0 +1,12 @@
+wandb:
+  _target_: pytorch_lightning.loggers.WandbLogger
+  name: ${name}-${hydra:job.num}
+  save_dir: ${save_dir}
+  project: ${project}
+  # log_model: true
+  group: ${name}
+  tags:
+    - sample
+  settings:
+    _target_: wandb.Settings
+    start_method: fork

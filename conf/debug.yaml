@@ -1,0 +1,31 @@
+defaults:
+  - base.yaml
+  - callbacks: [checkpoint.yaml, model_summary.yaml, lr_monitor.yaml]
+  - dataset: small.yaml
+  - datamodule: crowd_kwdlc.yaml
+  - logger: [tensorboard.yaml]
+  - trainer: debug.yaml
+  - optimizer: adamw.yaml
+  - scheduler: cosine_schedule_with_warmup.yaml
+  - _self_
+
+# hyper-parameters to be tuned
+virtual_batch_size: 2
+epochs: 2
+lr: 0.0001
+warmup_steps: null
+warmup_ratio: 0.1
+
+# experimental settings
+method: normalized-regression
+loss: mse  # mse, ce, bce, or mrl
+exophors:
+  - 著者
+  - 読者
+  - 不特定:人
+  - 不特定:物
+
+# environment dependent settings
+seed: 42
+num_workers: 0
+devices: 1

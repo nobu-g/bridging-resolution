@@ -1,0 +1,45 @@
+defaults:
+  - model: baseline.yaml
+  - _self_
+
+project: bridging-v4
+
+# path to original working directory
+# hydra hijacks working directory by changing it to the current log directory,
+# so it's useful to have this path as a special variable
+# https://hydra.cc/docs/next/tutorials/basic/running_your_app/working_directory
+work_dir: ${hydra:runtime.cwd}
+
+data_dir: ${work_dir}/data
+save_dir: ${work_dir}/result
+
+# seed for random number generators in pytorch, numpy and python.random
+# "null" means the seed is randomly selected at runtime.
+seed: null
+
+# name of the run is accessed by loggers
+# should be used along with experiment mode
+name: ${hydra:job.config_name}${hydra:job.override_dirname}
+
+exp_dir: ${save_dir}/${name}
+run_id: ${now:%m%d}_${now:%H%M%S}
+run_dir: ${exp_dir}/${run_id}
+
+hydra:
+  run:
+    dir: ${exp_dir}
+  sweep:
+    dir: result/multirun
+    subdir: ${hydra:job.num}
+  job:
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys:
+          - seed
+          - name
+          - exp_dir
+          - run_dir
+          - devices
+          - num_workers

@@ -1,0 +1,13 @@
+defaults:
+  - train:
+      - crowd
+      - kwdlc
+      # - fuman
+  - valid:
+      - crowd
+      - kwdlc
+      # - fuman
+  - test:
+      - crowd
+      - kwdlc
+      # - fuman

@@ -1,0 +1,561 @@
+{
+  "phrases": [
+    {
+      "surf": "書く",
+      "dtid": 0,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "のは",
+      "dtid": 1,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "あくまでも",
+      "dtid": 2,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "「情報」なので、",
+      "dtid": 3,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "しっかりと",
+      "dtid": 4,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "その",
+      "dtid": 5,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "店の",
+      "dtid": 6,
+      "scores": [
+        {
+          "dtid": 3,
+          "phrase": "「情報」なので、",
+          "score": 4
+        }
+      ],
+      "null": 12
+    },
+    {
+      "surf": "所在",
+      "dtid": 7,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "地や",
+      "dtid": 8,
+      "scores": [
+        {
+          "dtid": 6,
+          "phrase": "店の",
+          "score": 8
+        }
+      ],
+      "null": 2
+    },
+    {
+      "surf": "営業",
+      "dtid": 9,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "時間なども",
+      "dtid": 10,
+      "scores": [
+        {
+          "dtid": 3,
+          "phrase": "「情報」なので、",
+          "score": 1
+        },
+        {
+          "dtid": 6,
+          "phrase": "店の",
+          "score": 4
+        },
+        {
+          "dtid": 9,
+          "phrase": "営業",
+          "score": 12
+        }
+      ],
+      "null": 2
+    },
+    {
+      "surf": "書いていきますね",
+      "dtid": 11,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "!",
+      "dtid": 12,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "本当に",
+      "dtid": 13,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "美味しいんですが、",
+      "dtid": 14,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "意外と",
+      "dtid": 15,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "知られていないって",
+      "dtid": 16,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "いうか、",
+      "dtid": 17,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "食べた",
+      "dtid": 18,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "事が",
+      "dtid": 19,
+      "scores": [
+        {
+          "dtid": 6,
+          "phrase": "店の",
+          "score": 2
+        },
+        {
+          "dtid": 15,
+          "phrase": "意外と",
+          "score": 2
+        }
+      ],
+      "null": 12
+    },
+    {
+      "surf": "無いって",
+      "dtid": 20,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "方が",
+      "dtid": 21,
+      "scores": [
+        {
+          "dtid": 10,
+          "phrase": "時間なども",
+          "score": 2
+        },
+        {
+          "dtid": 15,
+          "phrase": "意外と",
+          "score": 2
+        },
+        {
+          "dtid": 19,
+          "phrase": "事が",
+          "score": 1
+        }
+      ],
+      "null": 12
+    },
+    {
+      "surf": "多い",
+      "dtid": 22,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "食材です。",
+      "dtid": 23,
+      "scores": [
+        {
+          "dtid": 6,
+          "phrase": "店の",
+          "score": 2
+        },
+        {
+          "dtid": 10,
+          "phrase": "時間なども",
+          "score": 2
+        },
+        {
+          "dtid": 15,
+          "phrase": "意外と",
+          "score": 4
+        },
+        {
+          "dtid": 19,
+          "phrase": "事が",
+          "score": 1
+        },
+        {
+          "dtid": 21,
+          "phrase": "方が",
+          "score": 1
+        }
+      ],
+      "null": 8
+    },
+    {
+      "surf": "まぁ、",
+      "dtid": 24,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "お肉",
+      "dtid": 25,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "屋さんに",
+      "dtid": 26,
+      "scores": [
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 10
+        }
+      ],
+      "null": 4
+    },
+    {
+      "surf": "買いに",
+      "dtid": 27,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "行く",
+      "dtid": 28,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "時に",
+      "dtid": 29,
+      "scores": [
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 2
+        }
+      ],
+      "null": 14
+    },
+    {
+      "surf": "「ロニョン」って",
+      "dtid": 30,
+      "scores": [
+        {
+          "dtid": 23,
+          "phrase": "食材です。",
+          "score": 4
+        },
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 7
+        },
+        {
+          "dtid": 26,
+          "phrase": "屋さんに",
+          "score": 2
+        },
+        {
+          "dtid": 29,
+          "phrase": "時に",
+          "score": 1
+        }
+      ],
+      "null": 4
+    },
+    {
+      "surf": "いっても",
+      "dtid": 31,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "通じませんが。",
+      "dtid": 32,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "臭みを",
+      "dtid": 33,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "消す",
+      "dtid": 34,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "ために、",
+      "dtid": 35,
+      "scores": [
+        {
+          "dtid": 23,
+          "phrase": "食材です。",
+          "score": 2
+        },
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 1
+        },
+        {
+          "dtid": 30,
+          "phrase": "「ロニョン」って",
+          "score": 3
+        },
+        {
+          "dtid": 33,
+          "phrase": "臭みを",
+          "score": 6
+        }
+      ],
+      "null": 4
+    },
+    {
+      "surf": "最初に",
+      "dtid": 36,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "強火で",
+      "dtid": 37,
+      "scores": [
+        {
+          "dtid": 33,
+          "phrase": "臭みを",
+          "score": 2
+        },
+        {
+          "dtid": 35,
+          "phrase": "ために、",
+          "score": 1
+        }
+      ],
+      "null": 12
+    },
+    {
+      "surf": "がーっと",
+      "dtid": 38,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "火を",
+      "dtid": 39,
+      "scores": [
+        {
+          "dtid": 35,
+          "phrase": "ために、",
+          "score": 1
+        },
+        {
+          "dtid": 37,
+          "phrase": "強火で",
+          "score": 8
+        }
+      ],
+      "null": 6
+    },
+    {
+      "surf": "入れる",
+      "dtid": 40,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "のが",
+      "dtid": 41,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "いいです。",
+      "dtid": 42,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "それは、",
+      "dtid": 43,
+      "scores": [
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 4
+        },
+        {
+          "dtid": 30,
+          "phrase": "「ロニョン」って",
+          "score": 1
+        },
+        {
+          "dtid": 33,
+          "phrase": "臭みを",
+          "score": 3
+        },
+        {
+          "dtid": 35,
+          "phrase": "ために、",
+          "score": 1
+        },
+        {
+          "dtid": 37,
+          "phrase": "強火で",
+          "score": 2
+        },
+        {
+          "dtid": 39,
+          "phrase": "火を",
+          "score": 1
+        }
+      ],
+      "null": 6
+    },
+    {
+      "surf": "良い",
+      "dtid": 44,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "状態で",
+      "dtid": 45,
+      "scores": [
+        {
+          "dtid": 23,
+          "phrase": "食材です。",
+          "score": 4
+        },
+        {
+          "dtid": 25,
+          "phrase": "お肉",
+          "score": 1
+        },
+        {
+          "dtid": 30,
+          "phrase": "「ロニョン」って",
+          "score": 1
+        },
+        {
+          "dtid": 33,
+          "phrase": "臭みを",
+          "score": 1
+        },
+        {
+          "dtid": 37,
+          "phrase": "強火で",
+          "score": 2
+        },
+        {
+          "dtid": 43,
+          "phrase": "それは、",
+          "score": 4
+        }
+      ],
+      "null": 4
+    },
+    {
+      "surf": "安定的に",
+      "dtid": 46,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "提供する",
+      "dtid": 47,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "のは",
+      "dtid": 48,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "ほぼ",
+      "dtid": 49,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "不可能って",
+      "dtid": 50,
+      "scores": [],
+      "null": null
+    },
+    {
+      "surf": "理由です。",
+      "dtid": 51,
+      "scores": [
+        {
+          "dtid": 19,
+          "phrase": "事が",
+          "score": 1
+        },
+        {
+          "dtid": 33,
+          "phrase": "臭みを",
+          "score": 5
+        },
+        {
+          "dtid": 35,
+          "phrase": "ために、",
+          "score": 1
+        },
+        {
+          "dtid": 45,
+          "phrase": "状態で",
+          "score": 4
+        },
+        {
+          "dtid": 50,
+          "phrase": "不可能って",
+          "score": 3
+        }
+      ],
+      "null": 4
+    }
+  ]
+}
