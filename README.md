@@ -24,11 +24,17 @@ This project provides a system to perform Japanese bridging reference resolution
 ```shell
 cd /somewhere
 ```
-- KWDLC
+- KWDLC (Expert)
 
   ```shell
   mkdir kwdlc
   git clone https://github.com/ku-nlp/KWDLC kwdlc/KWDLC
+  ```
+
+- Crowd
+
+  ```shell
+  wget https://lotus.kuee.kyoto-u.ac.jp/~ueda/dist/bridging-crowd-data-220506.zip 
   ```
 
 ### Adding features
